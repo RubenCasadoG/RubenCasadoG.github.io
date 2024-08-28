@@ -8,13 +8,13 @@ tags: [pluck, depix]  # TAG names should always be lowercase
 ![picture](/assets/images/hackthebox/greenhorn1.png)
 
 En este ***Writeup*** se engloban las siguientes fases:
-- **Reconocimiento**
-- **Explotación**
-- **Escalada de privilegios**
+- **[Reconocimiento](#reconocimiento)**
+- **[Explotación](#explotación)**
+- **[Escalada de privilegios](#escalada-de-privilegios)**
 
 ---
 
-## **RECONOCIMIENTO**
+## **Reconocimiento**
 
 Lo primero que realizaremos, será un escaneo con **NMAP**, para comprobar los puertos abiertos de la máquina, y conocer los servicios que corren por ellos.
 
@@ -50,7 +50,7 @@ Al no encontrar ningún puerto interesante por el que se pueda intentar algún t
 
     ---
 
-## **EXPLOTACIÓN**
+## **Explotación**
 
 A continuación, vamos a intentar crackear la contraseña con ***John The Ripper*** en nuestra máquina local.
 
@@ -98,7 +98,7 @@ Una vez subido el archivo, nos envía la **Shell interactiva**, y estamos dentro
 
 ---
 
-## **ESCALADA DE PRIVILEGIOS**
+## **Escalada de privilegios**
 
 En el directorio **/home** encontramos un usuario llamado **junior**, probamos a conectarnos con la contraseña encontrada antes, y obtenemos acceso.
 
