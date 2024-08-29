@@ -3,6 +3,7 @@ title: GreenHorn
 date: 2024-08-03
 categories: [WRITEUPS, HackTheBox]
 tags: [pluck, depix]  # TAG names should always be lowercase
+image: /assets/images/hackthebox/greenlogo.png
 ---
 
 ![picture](/assets/images/hackthebox/greenhorn1.png)

@@ -3,6 +3,7 @@ title: DoubleTrouble
 date: 2024-07-20
 categories: [WRITEUPS, VulnHub]
 tags: [stegseek, metadatos]  # TAG names should always be lowercase
+image: /assets/images/vulnhub/logo.png
 ---
 
 En este ***Writeup*** se engloban las siguientes fases:

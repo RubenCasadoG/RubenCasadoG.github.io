@@ -3,6 +3,7 @@ title: Driffting Blues 3
 date: 2024-07-10
 categories: [WRITEUPS, VulnHub]
 tags: [log poisoning]  # TAG names should always be lowercase
+image: /assets/images/vulnhub/logo.png
 ---
 
 En este ***Writeup*** se engloban las siguientes fases:

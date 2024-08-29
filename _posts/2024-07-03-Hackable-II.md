@@ -3,6 +3,7 @@ title: Hackable II
 date: 2024-07-03
 categories: [WRITEUPS, VulnHub]
 tags: []  # TAG names should always be lowercase
+image: /assets/images/vulnhub/logo.png
 ---
 
 En este ***Writeup*** se engloban las siguientes fases:

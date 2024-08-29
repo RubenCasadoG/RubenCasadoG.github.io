@@ -3,6 +3,7 @@ title: Lunchbreaker
 date: 2024-07-16
 categories: [WRITEUPS, VulnHub]
 tags: []  # TAG names should always be lowercase
+image: /assets/images/vulnhub/logo.png
 ---
 
 En este ***Writeup*** se engloban las siguientes fases:

@@ -3,9 +3,10 @@ title: BoardLight
 date: 2024-08-03
 categories: [WRITEUPS, HackTheBox]
 tags: [dolibar]  # TAG names should always be lowercase
+image: /assets/images/hackthebox/boardlogo.png
 ---
 
-![picture](/assets/images/hackthebox/board1.png){: w="600" h="300" }
+![picture](/assets/images/hackthebox/board1.png)
 
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**

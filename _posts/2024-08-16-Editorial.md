@@ -3,6 +3,7 @@ title: Editorial
 date: 2024-08-16
 categories: [WRITEUPS, HackTheBox]
 tags: [git, ssrf]  # TAG names should always be lowercase
+image: /assets/images/hackthebox/editoriallogo.png
 ---
 
 ![picture](/assets/images/hackthebox/editorial1.png)

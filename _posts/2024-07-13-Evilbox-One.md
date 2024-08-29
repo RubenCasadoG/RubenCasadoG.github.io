@@ -3,6 +3,7 @@ title: Evilbox One
 date: 2024-07-13
 categories: [WRITEUPS, VulnHub]
 tags: [lfi]  # TAG names should always be lowercase
+image: /assets/images/vulnhub/logo.png
 ---
 
 En este ***Writeup*** se engloban las siguientes fases:
