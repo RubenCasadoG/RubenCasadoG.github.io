@@ -1,5 +1,5 @@
 ---
-title: Writeup de la máquina DoubleTrouble
+title: DoubleTrouble
 date: 2024-07-20
 categories: [WRITEUPS, VulnHub]
 tags: [stegseek, metadatos]  # TAG names should always be lowercase
@@ -20,7 +20,7 @@ Lo primero que realizaremos será un escaneo de puertos con *NMAP*, para comprob
 nmap -p- --open -T5 192.168.1.152 -n -Pn -v
 ```
 
-![picture](/assets/images/vulnhub/double1.png)
+![picture](/assets/images/vulnhub/double1.png){: w="600" h="300" }
 
 Al no encontrar ningún puerto que nos interese para utilizar los scripts de *NMAP*, nos iremos a la página web para ver de que se trata.
 
@@ -38,7 +38,7 @@ gobuster dir -u http://192.168.1.152/ -w /usr/share/wordlists/dirbuster/director
 
 En la ruta ***/secret/*** encontramos la siguiente imagen.
 
-![picture](/assets/images/vulnhub/double4.png)
+![picture](/assets/images/vulnhub/double4.png){: w="600" h="300" }
 
 Nos la vamos a descargar para ver si hubiera **metadatos**.
 
@@ -88,7 +88,7 @@ nc -nlvp 4444
 
 Y nos dirigimos a la ruta de los archivos subidos de los usuarios, clicamos en la **Reverse Shell** para que se ejecute.
 
-![picture](/assets/images/vulnhub/double10.png)
+![picture](/assets/images/vulnhub/double10.png){: w="500" h="200" }
 
 Y estaremos dentro del servidor como el usuario **www-data**.
 
@@ -112,4 +112,4 @@ Ejecutamos el siguiente comando, y nos migrará al usuario **root**.
 sudo awk 'BEGIN {system("/bin/sh")}'
 ```
 
-![picture](/assets/images/vulnhub/double12.png)
+![picture](/assets/images/vulnhub/double13.png)

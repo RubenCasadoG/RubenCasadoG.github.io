@@ -1,5 +1,5 @@
 ---
-title: Writeup de la máquina GreenHorn
+title: GreenHorn
 date: 2024-08-03
 categories: [WRITEUPS, HackTheBox]
 tags: [pluck, depix]  # TAG names should always be lowercase
@@ -22,7 +22,7 @@ Lo primero que realizaremos, será un escaneo con **NMAP**, para comprobar los p
 nmap -p- --open -T5 10.10.11.25 -n -Pn -v
 ```
 
-![picture](/assets/images/hackthebox/greenhorn2.png)
+![picture](/assets/images/hackthebox/greenhorn2.png){: w="600" h="300" }
 
 Añadimos el dominio **greenhorn.htb** junto con la *IP* al archivo **/etc/hosts**, esto se realiza para que resuelva el nombre del dominio.
 
@@ -37,7 +37,7 @@ Al no encontrar ningún puerto interesante por el que se pueda intentar algún t
 
     - Haciendo un poco de **Fuzzing** manual, encontramos la ruta *http://greenhorn.htb/login.php*, en la que hay un panel de login de **Pluck** (gestor de contenidos CMS), con versión **4.7.18**, probando contraseñas comunes no he obtenido resultado.
 
-    ![picture](/assets/images/hackthebox/green5.png)
+    ![picture](/assets/images/hackthebox/green5.png){: w="600" h="300" }
 
 2. Puerto 3000
     - En este puerto encontramos una web de **Gitea**, que es un paquete de software de código abierto para alojar el control de versiones utilizando **Git**. Navegando en esta web encontramos un repositorio llamado **GreenAdmin**.
@@ -90,11 +90,11 @@ Nos ponemos en escucha con un **Listener** por el puerto **4444**, para que cuan
 
 Y subimos el archivo **.zip**.
 
-![picture](/assets/images/hackthebox/green12.png)
+![picture](/assets/images/hackthebox/green12.png){: w="600" h="300" }
 
 Una vez subido el archivo, nos envía la **Shell interactiva**, y estamos dentro de la máquina con el ussuario **www-data**.
 
-![picture](/assets/images/hackthebox/green13.png)
+![picture](/assets/images/hackthebox/green13.png){: w="600" h="300" }
 
 ---
 
@@ -139,6 +139,6 @@ Probamos a migrar al usuario **privilegiado** **root**, obtenemos acceso, y en s
 
 ![picture](/assets/images/hackthebox/green21.png)
 
-![picture](/assets/images/hackthebox/green22.png)
+![picture](/assets/images/hackthebox/green22.png){: w="600" h="300" }
 
 

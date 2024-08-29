@@ -1,5 +1,5 @@
 ---
-title: Writeup de la máquina Editorial
+title: Editorial
 date: 2024-08-16
 categories: [WRITEUPS, HackTheBox]
 tags: [git, ssrf]  # TAG names should always be lowercase
@@ -73,7 +73,7 @@ Vemos que cambia, la copiamos, y nos la descargamos con **wget**.
 
 Vemos el contenido y es un **json**, a continuación, enviaremos otra petición con el *endpoint* de los *authors*.
 
-![picture](/assets/images/hackthebox/editorial13.png)
+![picture](/assets/images/hackthebox/editorial13.png){: w="600" h="300" }
 
 Copiamos la respuesta, y nos la volvemos a descargar.
 
@@ -87,7 +87,7 @@ Viendo el contenido encontramos unas credenciales.
 
 Probamos a entrar mediante **SSH**, y obtenemos resultado.
 
-![picture](/assets/images/hackthebox/editorial17.png)
+![picture](/assets/images/hackthebox/editorial17.png){: w="600" h="300" }
 
 En el directorio personal encontramos la primera **flag** de usuario.
 
@@ -135,5 +135,5 @@ sudo /usr/bin/python3 /opt/internal_apps/clone_changes/clone_prod_change.py "ext
 
 ![picture](/assets/images/hackthebox/editorial27.png)
 
-![picture](/assets/images/hackthebox/editorial28.png)
+![picture](/assets/images/hackthebox/editorial28.png){: w="600" h="300" }
 

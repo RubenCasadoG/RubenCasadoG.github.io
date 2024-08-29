@@ -1,11 +1,11 @@
 ---
-title: Writeup de la máquina BoardLight
+title: BoardLight
 date: 2024-08-03
 categories: [WRITEUPS, HackTheBox]
 tags: [dolibar]  # TAG names should always be lowercase
 ---
 
-![picture](/assets/images/hackthebox/board1.png)
+![picture](/assets/images/hackthebox/board1.png){: w="600" h="300" }
 
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**
@@ -75,7 +75,7 @@ En la imagen:
 1. *Ejecución del script*
 2. *Listener*
 
-![picture](/assets/images/hackthebox/board9.png)
+![picture](/assets/images/hackthebox/board9.png){: w="650" h="350" }
 
 Y obtenemos acceso a la máquina con el ususario **www-data**.
 
@@ -85,25 +85,25 @@ Y obtenemos acceso a la máquina con el ususario **www-data**.
 
 Una vez dentro de la máquina, después de buscar archivos que nos puedan ayudar a escalar privilegios, encontramos en el archivo de configuración "conf.php" una contraseña.
 
-![picture](/assets/images/hackthebox/board10.png)
+![picture](/assets/images/hackthebox/board10.png){: w="600" h="300" }
 
 Viendo el archivo **/etc/passwd**, comprobamos que hay un usuario llamado "*larissa*", al haber encontrado antes el puerto SSH (22) abierto, vamos a intentar entrar con el usuario y la contraseña encontrada.
 
 Obtenemos acceso.
 
-![picture](/assets/images/hackthebox/board11.png)
+![picture](/assets/images/hackthebox/board11.png){: w="600" h="300" }
 
 En la carpeta personal de *larissa*, encontramos la primera **flag**.
 
-![picture](/assets/images/hackthebox/board12.png)
+![picture](/assets/images/hackthebox/board12.png){: w="600" h="300" }
 
 Realizando una búsqueda de binarios que contengan el bit de **SUID**, nos encontramos con ***Enlightenment***, que es un entorno de escritorio, y gestor de ventanas, conocido por su alto nivel de personalización y sus efectos visuales avanzados.
 
-![picture](/assets/images/hackthebox/board13.png)
+![picture](/assets/images/hackthebox/board13.png){: w="600" h="300" }
 
 Comprobamos la versión, para ver si es vulnerable.
 
-![picture](/assets/images/hackthebox/board14.png)
+![picture](/assets/images/hackthebox/board14.png){: w="600" h="300" }
 
 Y en internet encontramos **[CVE-2022-37706](https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit)**.
 
@@ -111,6 +111,6 @@ Y en internet encontramos **[CVE-2022-37706](https://github.com/MaherAzzouzi/CVE
 
 Nos descargamos el script, le damos *permisos de ejecución*, y una vez lo ejecutemos, obtendremos una *shell* con el ususario **root**, en su carpeta personal encontraremos la segunda **flag**.
 
-![picture](/assets/images/hackthebox/board16.png)
+![picture](/assets/images/hackthebox/board16.png){: w="600" h="300" }
 
-![picture](/assets/images/hackthebox/board17.png)
+![picture](/assets/images/hackthebox/board17.png){: w="600" h="300" }
