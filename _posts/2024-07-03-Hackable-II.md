@@ -6,6 +6,10 @@ tags: []  # TAG names should always be lowercase
 image: /assets/images/vulnhub/logo.png
 ---
 
+En esta máquina, nos aprovecharemos del directorio de **Anonymous** en **FTP** para subir una **Reverse Shell**, y para la escalada de privilegios encontraremos la contraseña de **root** en un script.
+
+---
+
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**
 - **[Explotación](#explotación)**

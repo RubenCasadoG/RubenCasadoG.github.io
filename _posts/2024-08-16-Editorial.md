@@ -3,10 +3,14 @@ title: Editorial
 date: 2024-08-16
 categories: [WRITEUPS, HackTheBox]
 tags: [git, ssrf]  # TAG names should always be lowercase
-image: /assets/images/hackthebox/editoriallogo.png
+image: /assets/images/hackthebox/htblogo.png
 ---
 
 ![picture](/assets/images/hackthebox/editorial1.png)
+
+Buenas, en esta máquina explotaremos un **SSRF** para obtener acceso a la máquina, y para la escalada de privilegios tendremos que movernos por un repositorio local con Git para encontrar credenciales.
+
+---
 
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**

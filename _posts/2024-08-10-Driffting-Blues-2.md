@@ -6,6 +6,10 @@ tags: []  # TAG names should always be lowercase
 image: /assets/images/vulnhub/logo.png
 ---
 
+Buenas, en esta máquina explotaremos un **Wordpress** con **WPScan**, para encontrar credenciales y poder obtener acceso a la máquina mediante el panel de administración de **Wordpress**, para escalar privilegios nos aprovecharemos de una mala administración de permisos para la **clave privada** de **SSH**.
+
+---
+
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**
 - **[Explotación](#explotación)**

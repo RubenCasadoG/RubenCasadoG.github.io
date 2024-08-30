@@ -3,10 +3,14 @@ title: GreenHorn
 date: 2024-08-03
 categories: [WRITEUPS, HackTheBox]
 tags: [pluck, depix]  # TAG names should always be lowercase
-image: /assets/images/hackthebox/greenlogo.png
+image: /assets/images/hackthebox/htblogo.png
 ---
 
 ![picture](/assets/images/hackthebox/greenhorn1.png)
+
+Buenas, en esta máquina encontraremos una contraseña cifrada, con la cual entraremos dentro del panel administrador de **Pluck**, y para la escalada de privilegios tendremos que **despixelar** una imagen en la cual se encuentra una contraseña.
+
+---
 
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**

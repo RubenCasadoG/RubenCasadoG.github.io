@@ -6,6 +6,10 @@ tags: []  # TAG names should always be lowercase
 image: /assets/images/vulnhub/logo.png
 ---
 
+Buenas, en esta máquina realizaremos un **ataque de diccionario** para encontrar la contraseña de un ususario del servicio **FTP**, dentro del servicio encontraremos más usuarios con archivos dentro de sus directorios que deberemos explotar, para la escalada de privilegios nos aprovecharemos de una antigua versión de **pkexec**.
+
+---
+
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**
 - **[Explotación](#explotación)**

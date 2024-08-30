@@ -3,7 +3,11 @@ title: BoardLight
 date: 2024-08-03
 categories: [WRITEUPS, HackTheBox]
 tags: [dolibar]  # TAG names should always be lowercase
-image: /assets/images/hackthebox/boardlogo.png
+image: /assets/images/hackthebox/htblogo.png
+---
+
+Buenas, en esta máquina explotaremos **CVE-2023-30253**, por una desactualizada versión de **Dolibar**, para escalar privilegios explotaremos **enlightenment** con bit **SUID**.
+
 ---
 
 ![picture](/assets/images/hackthebox/board1.png)

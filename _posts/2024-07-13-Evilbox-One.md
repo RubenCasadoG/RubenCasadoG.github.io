@@ -6,6 +6,10 @@ tags: [lfi]  # TAG names should always be lowercase
 image: /assets/images/vulnhub/logo.png
 ---
 
+Buenas, en esta máquina explotaremos un **LFI**, accederemos a la máquina listando la **clave privada** de **SSH** desde el navegador, y para la escalada de privilegios nos aprovecharemos de una mala configuración de permisos en el archivo "**/etc/passwd**".
+
+---
+
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**
 - **[Explotación](#explotación)**

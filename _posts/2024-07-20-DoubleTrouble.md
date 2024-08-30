@@ -6,6 +6,10 @@ tags: [stegseek, metadatos]  # TAG names should always be lowercase
 image: /assets/images/vulnhub/logo.png
 ---
 
+Buenas, en esta máquina extraeremos unas credenciales de los **metadatos** de una imagen, para acceder a la máquina nos aprovecharemos de una vulnerabilidad de **qdPM**, y para la escalada de privilegios utilizaremos el binario **awk**.
+
+---
+
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**
 - **[Explotación](#explotación)**

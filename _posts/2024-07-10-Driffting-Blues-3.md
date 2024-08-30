@@ -6,6 +6,10 @@ tags: [log poisoning]  # TAG names should always be lowercase
 image: /assets/images/vulnhub/logo.png
 ---
 
+Buenas, en esta máquina explotaremos un **Log Poisoning** para derivarlo a un **RCE**, y para la escalada de privilegios nos aprovecharemos del bit **SUID** del binario **getinfo**.
+
+---
+
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**
 - **[Explotación](#explotación)**
