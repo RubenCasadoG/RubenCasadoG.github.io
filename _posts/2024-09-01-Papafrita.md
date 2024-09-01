@@ -54,7 +54,7 @@ Dentro del directorio del usuario **abuela**, se encuentra la **flag** de usuari
 
 ---
 
-## **Escalada de privilegios
+## **Escalada de privilegios**
 
 Listando los permisos de **SUDO** del usuario, no necesitamos contraseña para el binario **node**.
 
