@@ -2,7 +2,7 @@
 title: Devvortex
 date: 2024-08-30
 categories: [WRITEUPS, HackTheBox]
-tags: []  # TAG names should always be lowercase
+tags: [joomla]  # TAG names should always be lowercase
 image: /assets/images/hackthebox/htblogo.png
 ---
 

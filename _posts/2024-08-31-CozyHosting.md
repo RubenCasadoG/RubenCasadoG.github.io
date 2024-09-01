@@ -1,6 +1,6 @@
 ---
 title: CozyHosting
-date: 2024-08-30
+date: 2024-08-31
 categories: [WRITEUPS, HackTheBox]
 tags: []  # TAG names should always be lowercase
 image: /assets/images/hackthebox/htblogo.png
@@ -10,7 +10,7 @@ image: /assets/images/hackthebox/htblogo.png
 
 ---
 
-Buenas, en este ***Writeup*** explotaremos un **Coockies Hijacking** por un filtrado de coockie de sesión, entraremos al servidor gracias a un **RCE**, y escalaremos privilegios gracias a los permisos de **SUDO** en el binario **/usr/bin/ssh**.
+Buenas, en este ***Writeup*** explotaremos un **Coockies Hijacking**, entraremos al servidor gracias a un **RCE** dentro del Dashboard del administrador, y escalaremos privilegios gracias a los permisos de **SUDO** en el binario **/usr/bin/ssh**.
 
 ---
 
