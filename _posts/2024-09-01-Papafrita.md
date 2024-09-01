@@ -33,6 +33,7 @@ A continuación, nos dirigiremos al navegador para ver el contenido de la págin
 Encontramos una página por defecto de **Apache2**.
 
 ![picture](/assets/images/thehackerslabs/papa2.png)
+
 Si vemos la fuente de la página, encontramos unos caracteres de lo que parece ser código **Brainfuck**.
 
 ![picture](/assets/images/thehackerslabs/papa3.png)
