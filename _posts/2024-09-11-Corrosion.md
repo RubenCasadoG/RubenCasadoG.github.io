@@ -183,7 +183,7 @@ Y tendremos acceso a la máquina como el usuario **www-data***.
 
 #### 2. *Log Poisoning*
 
-Como habíamos visto antes en la [Imagen](corr5.png), decían que cambiasen los permisos de **auth log**, que es el registro de logs del sistema.
+Como habíamos visto antes en la [Imagen](/assets/images/vulnhub/corr5.png), decían que cambiasen los permisos de **auth log**, que es el registro de logs del sistema.
 
 Un **Log Poisoning** es el envenenamiento de Logs con código **PHP**.
 

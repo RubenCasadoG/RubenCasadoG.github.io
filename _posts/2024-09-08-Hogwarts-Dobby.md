@@ -6,7 +6,7 @@ tags: []  # TAG names should always be lowercase
 image: /assets/images/vulnhub/logo.png
 ---
 
-Buenas, en esta máquina explotaremos un **Wordpress**, por el cual obtendremos una **Reverse Shell**, y migraremos de usuarios por el bit **SUID** de un binario, y escalaremos de privilegios por la versión anticuada de **pkexec**.
+Buenas, en esta máquina explotaremos un **Wordpress**, por el cual obtendremos una **Reverse Shell**, migraremos de usuarios por el bit **SUID** de un binario, y escalaremos de privilegios por la versión anticuada de **pkexec**.
 
 ---
 
