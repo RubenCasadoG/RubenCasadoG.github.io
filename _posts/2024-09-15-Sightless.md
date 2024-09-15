@@ -27,7 +27,7 @@ Lo primero que realizaré será un escaneo de puertos, para ello utilizaré la h
 nmap -p- --open -T5 10.10.11.32 -n -Pn -v
 ```
 
-![picture](/assets/images/hackthebox/sigh1.png)
+![picture](/assets/images/hackthebox/sigh1.png){: w="600" h="300" }
 
 Una vez hecho, realizaremos un escaneo más exhaustivo de los puertos encontrados, de los cuales obtendremos las versiones de los servicios corriendo por ellos, y lanzaremos una serie de scripts predeterminados de *NMAP*, para intentar encontrar algo interesante sobre ellos.
 
@@ -37,7 +37,7 @@ nmap -p21,22,80 -sVC 10.10.11.32
 
 Lo único interesante que encontramos es el dominio, así que lo añadiremos al archivo "***/etc/hosts***", para que cuando intentemos acceder a la web, nos resuelva el nombre del dominio, y la página muestre su contenido.
 
-![picture](/assets/images/hackthebox/sigh2.png){: w="600" h="300" }
+![picture](/assets/images/hackthebox/sigh2.png)
 
 Una vez hecho, nos vamos al navegador para ver la página corriendo por el servicio **HTTP**.
 
