@@ -13,6 +13,9 @@ Buenas, en esta máquina encontraremos 2 vías de explotación, **PHP Filter Cha
 En este ***Writeup*** se engloban las siguientes fases:
 - **[Reconocimiento](#reconocimiento)**
 - **[Explotación](#explotación)**
+	- [Explotaciones Posibles](#explotaciones-posibles)
+		1. [PHP Filter Chains](#1-php-filter-chains)
+		2. [Log Poisoning](#2-log-poisoning)
 - **[Escalada de privilegios](#escalada-de-privilegios)**
 
 ---

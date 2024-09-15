@@ -10,4 +10,4 @@ mi nombre es Rubén, soy un apasionado de la ciberseguridad ofensiva, en este bl
 
 Diariamente realizo CTFs, que me ayudan a aprender y entender conceptos complejos de la ciberseguridad.
 
-Tengo el grado de Sistemas Microinformáticos y Redes, y el de Administración de Sistemas Informáticos en Red, en noviembre empezaré un Máster de Hacking Ético el cual me prepara para las certificaciones CEH de EC-Council y OSCP de Offensive Security, aunque mi idea principal es sacarme en lo que queda de 2024 la certificación EJPT de INE Security.
+Tengo el grado de Sistemas Microinformáticos y Redes, y el de Administración de Sistemas Informáticos en Red, en Noviembre empezaré un Máster de Hacking Ético el cual me prepara para las certificaciones CEH de EC-Council y OSCP de Offensive Security, aunque mi idea principal es sacarme en lo que queda de 2024 la certificación EJPT de INE Security.
