@@ -1,7 +1,7 @@
 ---
 title: LazyAdmin
 date: 2024-09-22
-categories: [PREPARING EJPTv2, TryHackMe]
+categories: [WRITEUPS, PREPARING EJPTv2]
 tags: []  # TAG names should always be lowercase
 image: /assets/images/ejptv2/ejptV2.png
 ---
@@ -12,7 +12,7 @@ image: /assets/images/ejptv2/ejptV2.png
 
 ---
 
-En la máquina **LazyAdmin**, gracias a una versión anticuada de un gestor de contenido, obtengo el archivo de *Backup* de una *BBDD*, en la que encuentro credenciales para acceder al gestor, una vez dentro, gracias a un **Arbitrary File Upload**, obtengo acceso al servidor, y escalo privilegios gracias a los permisos de **Sudo** sobre un script.
+En la máquina **LazyAdmin** de **TryHackMe**, gracias a una versión anticuada de un gestor de contenido, obtengo el archivo de *Backup* de una *BBDD*, en la que encuentro credenciales para acceder al gestor, una vez dentro, gracias a un **Arbitrary File Upload**, obtengo acceso al servidor, y escalo privilegios gracias a los permisos de **Sudo** sobre un script.
 
 ---
 

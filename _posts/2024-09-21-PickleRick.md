@@ -1,12 +1,12 @@
 ---
 title: Pickle Rick
 date: 2024-09-21
-categories: [PREPARING EJPTv2, TryHackMe]
+categories: [WRITEUPS, PREPARING EJPTv2]
 tags: []  # TAG names should always be lowercase
 image: /assets/images/ejptv2/ejptV2.png
 ---
 
-En la máquina **Pickle Rick**, encuentro credenciales realizando **Fuzzing** web, y obtengo acceso en un panel de comandos, con la capacidad de ejecutar comandos en la máquina. Entraremos en la máquina y escalaré privilegios por los permisos de **Sudo** del usuario **www-data**.
+En la máquina **Pickle Rick** de **TryHackMe**, encuentro credenciales realizando **Fuzzing** web, y obtengo acceso en un panel de comandos, con la capacidad de ejecutar comandos en la máquina. Entraremos en la máquina y escalaré privilegios por los permisos de **Sudo** del usuario **www-data**.
 
 ---
 
