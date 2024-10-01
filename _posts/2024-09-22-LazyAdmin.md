@@ -172,7 +172,7 @@ En el archivo "**mysql_login.txt**", encuentro unas credenciales de la base de d
 
 ## **Escalada de privilegios**
 
-Mirando los permisos de **SUDO** del usuario **www-data**, veo que no ncesita usar contraseña para ejecutar mediante **PERL** el script "**backup.pl**".
+Mirando los permisos de **SUDO** del usuario **www-data**, veo que no necesita usar contraseña para ejecutar mediante **PERL** el script "**backup.pl**".
 
 ![picture](/assets/images/ejptv2/lazy21.png)
 
