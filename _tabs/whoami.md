@@ -14,4 +14,4 @@ Tengo el grado de **Sistemas Microinform√°ticos y Redes**, el de **Administraci√
 
 - **eJPTv2** de **INE Security**.
 
-![picture](/assets/images/ejptv2/certificacion.png)
+![picture](/assets/images/ejptv2/certificacion.png){: w="600" h="300" }
