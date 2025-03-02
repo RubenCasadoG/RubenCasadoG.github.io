@@ -1,12 +1,12 @@
 ---
-title: Collections
+title: HackZones
 date: 2025-02-27
 categories: [WRITEUPS, DockerLabs]
 tags: []  # TAG names should always be lowercase
 image: /assets/images/dockerlabs/collect1.png
 ---
 
-En la máquina **Collections** de **DockerLabs** exploto un **Arbitrary File Upload** en el panel del admin, encuentro las credenciales de un usuario en un archivo que únicamente puede ser ejecutado por el usuario **root**, y escalo los máximos privilegios mediante los permisos de **sudo** del usuario.
+En la máquina **HackZones** de **DockerLabs** exploto un **Arbitrary File Upload** en el panel del admin, encuentro las credenciales de un usuario en un archivo que únicamente puede ser ejecutado por el usuario **root**, y escalo los máximos privilegios mediante los permisos de **sudo** del usuario.
 
 ---
 
